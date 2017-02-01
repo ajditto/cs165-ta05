@@ -21,8 +21,8 @@ int Robot :: getEnergy() const {
 }
 
 void Robot :: setPosition (Point position) {
-   position.setX(x);
-   position.setY(y);
+   position.setX(position.getX());
+   position.setY(position.getY());
 }
 
 void Robot :: setEnergy (int energy) {

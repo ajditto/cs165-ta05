@@ -45,7 +45,7 @@ void partI()
 
 void partII()
 {
-   /*
+   
    // PART II - Point Constructors
    Point p1;
    cout << "Default Point constructor. It should be: (5, 5). It is: ";
@@ -61,12 +61,12 @@ void partII()
    cout << "Non-default Point constructor. It should be: (10, 1). It is: ";
    p3.display();
    cout << endl;
-   */
+   
 }
 
 void partIII()
 {
-   /*
+   
    // PART III - Robot Constructors
    Robot r1;
    cout << "Default constructor. Should be: (5, 5) - 100. It is: ";
@@ -88,7 +88,7 @@ void partIII()
    cout << "Non-default constructor 2. Should be: (7, 3) - 19. It is: ";
    r4.display();
    cout << endl;
-   */
+   
 }
 
 void stretch()
