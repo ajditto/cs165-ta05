@@ -11,7 +11,11 @@ private:
 
 public:
    void display() const;
-
+   Point getPosition(); 
+   int getEnergy();
+   void setPosition(Point position);
+   void setEnergy(int energy);
+   Robot();
 };
 
 #endif
