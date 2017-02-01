@@ -13,7 +13,7 @@ public:
    int getY() const;
    void setX(int x);
    void setY(int y);
-   
+   Point();
 
 };
 
