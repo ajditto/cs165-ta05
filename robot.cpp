@@ -32,3 +32,14 @@ void Robot :: setEnergy (int energy) {
 Robot :: Robot () {
    energy = 100;
 }
+
+Robot :: Robot (int energy)
+{
+   setEnergy(energy);
+}
+
+Robot :: Robot (Point position, int energy)
+{
+   setPosition(position);
+   setEnergy(energy);
+}
