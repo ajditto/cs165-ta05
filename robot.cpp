@@ -11,3 +11,24 @@ void Robot :: display() const
    position.display();
    cout << " - Energy: " << getEnergy();
 }
+
+Point Robot :: getPosition() const {
+   return position;
+}
+
+int Robot :: getEnergy() const {
+   return energy;
+}
+
+void Robot :: setPosition (Point position) {
+   position.setX(x);
+   position.setY(y);
+}
+
+void Robot :: setEnergy (int energy) {
+   this -> energy = energy;
+}
+
+Robot :: Robot () {
+   energy = 100;
+}
