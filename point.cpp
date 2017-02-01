@@ -51,3 +51,8 @@ Point :: Point()
    x = 5;
    y = 5;
 }
+
+Point :: Point (int x, int y) {
+   setX(x);
+   setY(y);
+}
