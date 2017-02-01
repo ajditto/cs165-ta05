@@ -45,3 +45,9 @@ void Point :: setY(int y)
    else
       this->y = y;
 }
+
+Point :: Point()
+{
+   x = 5;
+   y = 5;
+}
