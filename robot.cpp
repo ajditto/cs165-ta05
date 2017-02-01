@@ -26,7 +26,10 @@ void Robot :: setPosition (Point position) {
 }
 
 void Robot :: setEnergy (int energy) {
-   this -> energy = energy;
+   if (energy < 0) 
+      this -> energy = 0;
+   else
+      this -> energy = energy;
 }
 
 Robot :: Robot () {
