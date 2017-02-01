@@ -9,6 +9,7 @@ private:
 
 public:
    void display() const;
+   int getX(int x);
 
 };
 
