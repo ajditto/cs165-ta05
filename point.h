@@ -14,6 +14,7 @@ public:
    void setX(int x);
    void setY(int y);
    Point();
+   Point(int x, int y);
 
 };
 
